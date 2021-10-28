@@ -1,0 +1,70 @@
+html,
+body{
+    background-color: #ce9cf8;
+    margin: 0;
+    padding: 0;
+    font-family: 'ZenKurenaido-Regular';
+}
+
+@font-face {
+    font-family: 'ZenKurenaido-Regular';
+    src: url(font/ZenKurenaido-Regular.ttf);
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
+    border-bottom: 5px solid #b301fa;
+}
+h1{
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+h3{
+    position: relative;
+    margin-bottom: 10px;
+}
+button{
+    padding: 5px 10px;
+    display: block;
+    margin: 20px auto 0;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: lightgreen;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+button:hover{
+    background-color: rgb(175, 253, 175);
+}
+section{
+    margin: -50px auto;
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 450px;
+    height: 450px;
+}
+
+@media only screen and (max-width:600px) {
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}
